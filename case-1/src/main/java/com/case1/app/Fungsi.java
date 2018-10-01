@@ -8,17 +8,17 @@ public class Fungsi
 {
     public static int cariDiskon(String kodePromo) {
         int diskon = 0;
-        if("New Year".equals(kodePromo))
-        {
-            diskon = 5;
-        }
-        else if("Lebaran".equals(kodePromo))
-        {
-            diskon = 10;
-        }
-        else if("Harbolnas".equals(kodePromo))
-        {
-            diskon = 20;
+        if(!"New Year".equals(kodePromo))
+            if("Lebaran".equals(kodePromo))
+            {
+                diskon = 10;
+            }
+            else if("Harbolnas".equals(kodePromo))
+            {
+                diskon = 20;
+            }
+        else {
+                diskon = 5;
         }
         return diskon;
      }
