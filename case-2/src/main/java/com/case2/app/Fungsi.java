@@ -2,10 +2,6 @@ package com.case2.app;
 
 import java.util.HashMap;
 
-/**
- * Hello world!
- *
- */
 public class Fungsi {
 
     public static HashMap<String, String[]> getParkiran() {

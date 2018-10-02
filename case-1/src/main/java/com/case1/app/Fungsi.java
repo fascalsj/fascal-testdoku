@@ -1,9 +1,5 @@
 package com.case1.app;
 
-/**
- * Hello world!
- *
- */
 public class Fungsi 
 {
     public static int cariDiskon(String kodePromo) {
